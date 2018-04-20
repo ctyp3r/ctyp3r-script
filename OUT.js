@@ -1,5 +1,5 @@
 /*
-    Xx.TYPE - Typing game / NitroType.com bot
+    nitrotypescript - NitroType.com bot
 */
 (() => {
     // Test whether or not an href is valid for injection
@@ -29,7 +29,8 @@
     }
     if (window["UltraTypeCore"]) {
         // There's already an instance of UltraType on this page
-        console.warn('Xx.TYPECore already present, there\'s two versions of Xx.TYPE on this page!');
+        console.warn('
+                     .TYPECore already present, there\'s two versions of Xx.TYPE on this page!');
         return;
     }
     // Constants
@@ -752,7 +753,7 @@
         let outerTitle = document.createElement('center');
         let title = document.createElement('p');
         title.style.fontSize = "135%";
-        title.innerHTML = "<strong>Xx.TYPE 1</strong>";
+        title.innerHTML = "<strong>ctyp3r</strong>";
         title.style.cursor = 'pointer';
         title.onclick = () => {
             window.open(EXT_URL,'_blank');
@@ -1385,7 +1386,7 @@
             node.style.pointerEvents = "none";
             node.innerHTML = "";
             node.innerHTML += FONT;
-            node.innerHTML += '<center style="font-family:Orbitron;">Xx.TYPE - NitroType HACKED!<br>Version: ' + VERSION + '</center>';
+            node.innerHTML += '<center style="font-family:Orbitron;">ctyp3r<br>Version: ' + VERSION + '</center>';
         }, 1000);
     },
     detectWebGL = () => {
